@@ -129,9 +129,7 @@ return true;
 
 const resultEveryFunction = every(array, (item, index, array) =>{
   return item > 2;
-}
-
-);
+});
 
 console.log(resultEveryFunction);
 // Эту часть не удаляем, она важна для проверки результата
